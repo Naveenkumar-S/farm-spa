@@ -16,6 +16,7 @@ export const metadata = {
   description: "Web App to manage farms",
 };
 
+// https://getbootstrap.com/docs/5.3/getting-started/introduction/
 export default function RootLayout({ children }) {
   return (
     <html suppressHydrationWarning lang="en">

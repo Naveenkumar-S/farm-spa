@@ -1,0 +1,2 @@
+1. Redirect to / page upon hitting /login with jwt
+2. Validate JWT set in cookie

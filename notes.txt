@@ -1,0 +1,37 @@
+Read about cors:
+
+https://stackoverflow.com/questions/7067966/why-doesnt-adding-cors-headers-to-an-options-route-allow-browsers-to-access-my
+https://expressjs.com/en/resources/middleware/cors.html#enabling-cors-pre-flight
+https://agnesmuita.medium.com/cors-error-solved-access-to-fetch-has-been-blocked-by-cors-policy-9ac753cafe5a
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS/Errors/CORSMissingAllowOrigin
+https://answers.netlify.com/t/request-header-field-content-type-is-not-allowed-by-access-control-allow-headers-in-preflight-response/54410
+https://stackoverflow.com/questions/43871637/no-access-control-allow-origin-header-is-present-on-the-requested-resource-whe
+https://stackoverflow.com/questions/32500073/request-header-field-access-control-allow-headers-is-not-allowed-by-itself-in-pr
+
+
+Build API with next js:
+https://nextjs.org/blog/building-apis-with-nextjs
+
+Middleware in next js:
+https://chris-hand.medium.com/express-like-middleware-in-nextjs-17343e9e620c
+
+getServerSideProps:
+https://www.dhiwise.com/post/mastering-nextjs-getserversideprops-a-comprehensive-guide
+
+Next js API call:
+https://medium.com/@turingvang/nextjs-api-call-b4a8ac63bce9
+
+Loading and Streaming:
+https://nextjs.org/docs/app/building-your-application/routing/loading-ui-and-streaming
+
+Next router auth:
+https://www.youtube.com/watch?v=DJvM2lSPn6w&ab_channel=leerob
+
+Next useState:
+https://www.youtube.com/watch?v=Yb19rit1vBk&ab_channel=DeveloperResources
+
+Next forms:
+https://www.youtube.com/watch?v=dDpZfOQBMaU&ab_channel=leerob
+
+SWR changes:
+SWR changes:https://swr.vercel.app/blog/swr-v2

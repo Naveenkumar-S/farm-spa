@@ -49,7 +49,7 @@ export default function Home() {
       {/* Main content */}
       <div className="container">
         <div className="row d-flex justify-content-center">
-          <div className="col-md-6">
+          <div className="col-md-4">
             <ListFarms userId={"PAH05HXR3N"} />
           </div>
         </div>
