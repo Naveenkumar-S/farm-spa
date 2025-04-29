@@ -1,7 +1,7 @@
 'use server'
 import { redirect } from 'next/navigation'
 import { cookies } from 'next/headers'
- 
+
 export async function login(formData) {
   let payload = {
     email: formData.get('userId'),
@@ -25,4 +25,16 @@ export async function login(formData) {
     }
     redirect('/')
   }
+}
+
+export async function getFarms(url) {
+  const cookieStore = await cookies()
+  const response = await fetch(url, {
+    credentials: 'include',
+    headers: {
+      'Cookie': ``
+    }
+  })
+  const data = await response.json()
+  return data
 }

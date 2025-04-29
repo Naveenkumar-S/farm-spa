@@ -1,10 +1,9 @@
 'use client'
+import { getFarms } from '@/app/actions'
 import useSWR from 'swr';
 
-const fetcher = (...args) => fetch(...args).then(res => res.json())
-
-function ListFarms({ userId }) {
-  const { data, error, isLoading } = useSWR(`http://127.0.0.1:4444/v1/farms/fetch?farm_id=${userId}`, fetcher)
+function ListFarms() {
+  const { data, error, isLoading } = useSWR(`http://127.0.0.1:4444/v1/farms/fetch`, getFarms)
   if (error) return <div>failed to load</div>
   if (isLoading) return <div>loading...</div>
   return (
@@ -50,7 +49,7 @@ export default function Home() {
       <div className="container">
         <div className="row d-flex justify-content-center">
           <div className="col-md-4">
-            <ListFarms userId={"PAH05HXR3N"} />
+            <ListFarms />
           </div>
         </div>
       </div>
